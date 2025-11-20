@@ -1,9 +1,7 @@
 <?php 
 require_once ('../utils/autoloader.php');
 
-$myFormule1 = new Formule1 ();
-
-
+$titi = new Chien ();
 
 ?>
 
@@ -17,9 +15,8 @@ $myFormule1 = new Formule1 ();
 </head>
 <body>
     
-<h1><?=  $myFormule1->drive() ?></h1>
-<?php $myFormule1->shiftGear() ?>
-<h2><?=  $myFormule1->drive() ?></h2>
-
+<h1><?=  $titi->info() ?></h1>
+<h2><?= $titi->infoPlus() ?></h2>
+<h2><?=  $titi->crie() ?></h2>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php 
 
-abstract class Animal {
+class Animal {
 
     public function info(): string 
     {
